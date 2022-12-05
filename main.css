@@ -102,7 +102,7 @@ footer div, footer a{
 }
 .headerimages img:hover{
     transform: translateY(0px);
-    -webkit-filter:saturate(2)
+    filter:saturate(2)
 }
 .wizardimg:hover .wizardtext{
 color: rgb(0, 0, 0);
@@ -398,4 +398,35 @@ font-size: 24px;
 }
 .formbutton:active{
     background-color: royalblue;
+}
+
+.grid-container{
+    display: grid;
+    margin: 0 auto;
+}
+.spellgrid{
+    grid-template-columns: auto auto auto;
+    position: center;
+    row-gap: 20px;
+    width: 80%;
+    padding: 40px;
+}
+.grid-item{
+    background: transparent;
+}
+.spellgrid img{
+    background-color: transparent;
+    width: 80%;
+    transition-duration: 1s;
+    border-style: solid;
+    border-radius: 2px;
+}
+.spellgrid img:hover{
+    filter:saturate(2);
+    transform: scale(105%);
+    cursor: pointer;
+}
+.hiddentextspell{
+    display:none;
+    transition-duration: all 2s;
 }
