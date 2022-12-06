@@ -430,3 +430,52 @@ font-size: 24px;
     display:none;
     transition-duration: all 2s;
 }
+.weathersection{
+    background-color: rgb(23, 23, 211);
+    border-radius: 20px;
+}
+.weathersection *{
+    background-color: transparent;
+}
+.weathergrid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+.weathergrid div{
+    margin: 0 auto;
+    padding: 10px;
+}
+.weathergridpicture{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.weathergridpicture img{
+    object-fit: fill;
+    border-radius: 20px;
+}
+.datelate{
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.locationtemp{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.icongrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.predictions{
+    background: white;
+    border-radius: 25px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 150%;
+}
+.predictionbox{
+    background: grey;
+}

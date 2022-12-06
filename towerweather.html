@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <header>
         <nav class="flex-nav">
@@ -21,7 +23,52 @@
             </div>
         </nav>
     </header>
-    
+
+    <section class="poppins weathersection container">
+
+        <h2 class="center" style="margin:12px;">Check out the <span style="color:white;">weather</span> at our wizard
+            towers!</h2>
+        <p>Hier moet selectiedoos komen</p>
+        <div class=weathergrid>
+            <div class="weathergridpicture"><img src="wizardimages/weatherparis.png" alt=""></div>
+            <div class="flex datelate column">
+                <p>Hier komt de datum</p>
+                <p>Hier komt de lat/alt</p>
+            </div>
+            <div class="flex column locationtemp">
+                <h2>Location</h2>
+                <h2>Temperature</h2>
+            </div>
+            <div class="icongrid icons">
+                <div>Wind</div>
+                <div>Feels like</div>
+                <div>Wind</div>
+                <div>Rain</div>
+            </div>
+            <div class="predictions flex column">
+                <h2>Predictions!</h2>
+                <div class="flex column">
+                    <div class="flex predictionbox" >
+                        <div>Vrijdag</div>
+                        <div>Wind</div>
+                        <div>mm rain</div>
+                    </div>
+                    <div class="flex">
+                        <div>Vrijdag</div>
+                        <div>Wind</div>
+                        <div>mm rain</div>
+                    </div>
+                    <div class="flex">
+                        <div>Vrijdag</div>
+                        <div>Wind</div>
+                        <div>mm rain</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 
     <footer>
         <div class="footercontainer poppins">
@@ -40,4 +87,5 @@
         </div>
     </footer>
 </body>
+
 </html>
